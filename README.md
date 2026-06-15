@@ -46,7 +46,7 @@ The website was designed as a single-page experience, providing intuitive naviga
 [Look at the Home Section](https://drive.google.com/file/d/1MNfYsn6lYn-fwOOPR3F9eaxmrnRj54p3/view?usp=drive_link)
 ### Clients Section
 
-![Look at the Clients Section](https://drive.google.com/file/d/1BR74oICQBtZ5xG5IX0f2LrF8KCG-WyLJ/view?usp=drive_link)
+[Look at the Clients Section](https://drive.google.com/file/d/1BR74oICQBtZ5xG5IX0f2LrF8KCG-WyLJ/view?usp=drive_link)
 
 ## Interactive Features
 

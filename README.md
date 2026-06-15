@@ -1,2 +1,169 @@
-# BioDestino-Website
-Institutional website concept developed for BioDestino, showcasing biological waste collection, transportation, treatment, and disposal services through a modern and interactive user experience.
+# BioDestino Website
+
+## Description
+
+BioDestino is a company specialized in the collection, transportation, treatment, and proper disposal of biological waste. This project showcases the design and development of a modern institutional website created to present the company's mission, services, clients, and operational workflow.
+
+The website was designed as a single-page experience, providing intuitive navigation and interactive elements that guide users through every stage of BioDestino's service process, from the initial contact to final certification.
+
+---
+
+## Live Website
+
+🔗 Add the website URL here
+
+---
+
+## Features
+
+* Institutional presentation of BioDestino;
+* Single-page website structure;
+* Interactive navigation between sections;
+* Service presentation and explanation;
+* Client showcase section;
+* Operational workflow presentation;
+* Animated information carousel;
+* Animated icons and visual elements;
+* Smooth scrolling navigation;
+* Outlook integration for contact requests;
+* Direct phone call functionality on supported devices;
+* Modern and user-friendly interface.
+
+---
+
+## Technologies Used
+
+* Figma
+* UI/UX Design
+* Interactive Prototyping
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## Preview
+
+### Home Section
+
+![Home](assets/Home_BD.png)
+
+### Services Section
+
+![Services](assets/Services_BD.png)
+
+### Clients Section
+
+![Clients](assets/Clients_BD.png)
+
+
+---
+
+## Animations & Interactions
+
+### Service Workflow
+
+▶ [View Workflow Demonstration](assets/WorkFlow_BD.mp4)
+
+### Carousel Animation
+
+▶ [View Carousel Demonstration](assets/Carousel_BD.mp4)
+
+### Header Navigation Buttons
+
+▶ [View Header Navigation Demonstration](assets/Header_Bottons_BD.mp4)
+
+### "Discover Our Services" Button Interaction
+
+▶ [View Button Demonstration](assets/Botton_Conheça_Nossos_Serviços_BD.mp4)
+
+---
+
+## Code Highlights
+
+### Smooth Navigation Between Sections
+
+This functionality allows users to navigate seamlessly throughout the website.
+
+```javascript
+const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      setIsMenuOpen(false);
+      setIsContactOpen(false);
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  };
+```
+
+### Automatic Carousel
+
+The carousel automatically rotates featured content, creating a dynamic user experience.
+
+```javascript --> O mecanismo central — scroll vertical → movimento horizontal
+export function HorizontalScroll() {
+  const targetRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+    offset: ['start start', 'end end']
+  });
+
+  const x = useTransform(scrollYProgress, [0, 1], ['0%', '-75%']);
+```
+```javascript --> O "truque" do sticky
+ <section ref={targetRef} style={{ position: 'relative' }} className="hidden md:block h-[400vh] bg-gradient-to-br from-gray-900 to-gray-800">
+        <div className="sticky top-0 h-screen flex items-center overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-[#2D6A2E]/20 to-[#5C4033]/20"></div>
+
+          <motion.div
+```
+
+### Animated Workflow Timeline
+
+Visual animations help users understand the operational process in a clear and engaging way.
+
+```javascript --> Parallax Section
+export function Process() {
+  const containerRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ['start end', 'end start']
+  });
+
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ['0%', '20%']);
+```
+
+```HTML --> The Line
+<div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-200 -translate-x-1/2">
+  <motion.div
+    style={{ height: lineHeight }}
+    className="... origin-top"
+  />
+</div>
+```
+
+---
+
+## What I Learned
+
+Throughout the development of this project, I strengthened my skills in:
+
+* UI/UX Design;
+* Information Architecture;
+* Corporate Website Design;
+* Interactive Navigation Design;
+* Animation Planning and Implementation;
+* User Experience Optimization;
+* Responsive Design Principles;
+* Professional Prototyping with Figma;
+* Front-End Development using HTML, CSS, and JavaScript.
+
+---
+
+## Author
+
+**Gustavo Pinheiro Gaspar Cordeiro**
+
+Developer and Designer responsible for the conception, design, prototyping, and development of the BioDestino website.

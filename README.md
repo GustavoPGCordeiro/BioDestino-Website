@@ -41,42 +41,46 @@ The website was designed as a single-page experience, providing intuitive naviga
 * JavaScript
 
 ---
-
-## Preview
-
 ### Home Section
 
-![Home](assets/Home_BD.png)
+![Home](assets/photos/Home_BD.png)
 
 ### Services Section
 
-![Services](assets/Services_BD.png)
+![Services](assets/photos/Services_BD.png)
 
 ### Clients Section
 
-![Clients](assets/Clients_BD.png)
+![Clients](assets/photos/Clients_BD.png)
 
-
----
-
-## Animations & Interactions
+## Interactive Features
 
 ### Service Workflow
 
-▶ [View Workflow Demonstration](assets/WorkFlow_BD.mp4)
+🎥 [Watch the Workflow Animation](https://drive.google.com/file/d/1oCtEZM7dkocFPi-pisIoUxBc5N6fxDpw/view?usp=drive_link)
 
 ### Carousel Animation
 
-▶ [View Carousel Demonstration](assets/Carousel_BD.mp4)
+🎥 [Watch the Carousel Animation](https://drive.google.com/file/d/1P-QPCVn7_s7n73AN00vWUsyb-a5d0G7B/view?usp=drive_link)
 
-### Header Navigation Buttons
+### Header Navigation
 
-▶ [View Header Navigation Demonstration](assets/Header_Bottons_BD.mp4)
+🎥 [Watch the Header Navigation Animation](https://drive.google.com/file/d/1YUKmF5RwvY3gx1sDHbNVxQglbijK7q8F/view?usp=drive_link)
 
-### "Discover Our Services" Button Interaction
 
-▶ [View Button Demonstration](assets/Botton_Conheça_Nossos_Serviços_BD.mp4)
+### Services
 
+🎥 [Watch the Services Navigation](https://drive.google.com/file/d/13eMbamMY_QguTDeCMh6Klqm07XANuo64/view?usp=drive_link)
+
+### "Conheça Nossos Serviços" Botton
+
+🎥 [Watch the "Conheça Nossos Serviços" botton funcionality](https://drive.google.com/file/d/1ed8qOAAJPjjoSNGg3G74gLVFUvk_-kEf/view?usp=drive_link)
+
+
+
+### "Discover Our Services" Button
+
+🎥 [Watch the Button Interaction](COLE_O_LINK_DO_DRIVE_AQUI)
 ---
 
 ## Code Highlights

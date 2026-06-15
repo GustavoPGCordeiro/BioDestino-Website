@@ -45,10 +45,6 @@ The website was designed as a single-page experience, providing intuitive naviga
 
 ![Home](assets/photos/Home_BD.png)
 
-### Services Section
-
-![Services](assets/photos/Services_BD.png)
-
 ### Clients Section
 
 ![Clients](assets/photos/Clients_BD.png)

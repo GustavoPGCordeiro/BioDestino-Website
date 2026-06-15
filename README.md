@@ -76,11 +76,6 @@ The website was designed as a single-page experience, providing intuitive naviga
 
 🎥 [Watch the "Conheça Nossos Serviços" botton funcionality](https://drive.google.com/file/d/1ed8qOAAJPjjoSNGg3G74gLVFUvk_-kEf/view?usp=drive_link)
 
-
-
-### "Discover Our Services" Button
-
-🎥 [Watch the Button Interaction](COLE_O_LINK_DO_DRIVE_AQUI)
 ---
 
 ## Code Highlights
